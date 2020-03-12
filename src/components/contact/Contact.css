@@ -1,0 +1,26 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
+    cursor: pointer;
+    text-align: center;
+    background-color: #54bc91;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#contact:hover {
+    cursor: pointer;
+    text-align: center;
+    background-color: #fabc30;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    /*  Making button bigger on hover  */
+    transform: scale(1.1) perspective(1px)
+}

@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import Contact from './Contact';
+import Contact from './components/contact/Contact';
+import Greeting from './components/greeting/Greeting';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi there ...</h1>
-      <p>I AM A SELF-TAUGHT WEB DEVELOPER</p>
-      <p>A SYSTEM ADMINISTRATOR, AND A SCIENCE LOVER</p>
+      <Greeting />
       <Contact profile="www.facebook.com"/>
     </div>
   );
