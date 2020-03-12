@@ -15,10 +15,10 @@ function App() {
       <div className="App">
         <NavBar/>
         <Route exact path='/portfolio' component={Greeting}/>
-        <Route exact path='/blog' component={Blog}/>
-        <Route exact path='/about' component={About}/>
-        <Route exact path='/projects' component={Projects}/>
-        <Route exact path='/bio' component={Bio}/>
+        <Route exact path='/portfolio/blog' component={Blog}/>
+        <Route exact path='/portfolio/about' component={About}/>
+        <Route exact path='/portfolio/projects' component={Projects}/>
+        <Route exact path='/portfolio/bio' component={Bio}/>
         <Contact/>
       </div>
     </BrowserRouter>
