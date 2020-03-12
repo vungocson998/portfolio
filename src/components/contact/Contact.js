@@ -9,7 +9,7 @@ class Contact extends Component {
         };
         return (
             <div className="flex-container">
-                <button id="contact" onClick={handleClick}>:D</button>
+                <button id="button" onClick={handleClick}>:D</button>
             </div>
         );
     }
