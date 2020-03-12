@@ -1,0 +1,38 @@
+.social-widget {
+    display: flex;
+    align-items: center;
+    margin: 5px 30px;
+}
+
+#fb {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    background: url("./images/fb24px_white.png") no-repeat;
+    display: inline-block;
+}
+#fb:hover {
+    background: url("./images/fb24px_black.png") no-repeat;
+}
+
+#linkein {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    background: url("./images/linkein_white.png") no-repeat;
+    display: inline-block;
+}
+#linkein:hover {
+    background: url("./images/linkein_black.png") no-repeat;
+}
+
+#github {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    background: url("./images/github_white.png") no-repeat;
+    display: inline-block;
+}
+#github:hover {
+    background: url("./images/github_black.png") no-repeat;
+}

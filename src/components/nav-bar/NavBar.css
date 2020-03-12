@@ -1,0 +1,37 @@
+.nav-bar {
+    display: flex   ;
+    justify-content: space-between;
+    margin: 20px 40px;
+    padding: 0 0 20px 0 ;
+    border-bottom: 1px solid black;
+}
+
+a {
+    /*Remove underline for a tag*/
+    text-decoration: none;
+    color: black;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.menu-item {
+    margin: 5px;
+    display: inline;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 20px;
+}
+
+.site-logo {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 5px 30px;
+}
+
+.header-bar {
+    display: block;
+    justify-content: center;
+}
+

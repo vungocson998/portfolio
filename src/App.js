@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 import Contact from './components/contact/Contact';
 import Greeting from './components/greeting/Greeting';
+import NavBar from './components/nav-bar/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <Greeting />
+      <NavBar/>
+      <Greeting/>
       <Contact profile="www.facebook.com"/>
     </div>
   );
