@@ -8,7 +8,7 @@ function NavBar() {
         <div className="nav-bar">
             <div className="header-bar">
                 <div class="site-logo">
-                    <Link to="/portfolio">SON VU</Link>
+                    <Link id="title" to="/portfolio">SON VU</Link>
                 </div>
                 <SocialWidget/>
             </div>
