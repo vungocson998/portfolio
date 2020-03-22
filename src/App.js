@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import './App.css';
-import Contact from './components/contact/Contact';
+import Button from './components/button/Button';
 import Greeting from './components/greeting/Greeting';
 import Blog from './components/blog/Blog';
 import Bio from './components/bio/Bio';
@@ -19,7 +19,7 @@ function App() {
         <Route exact path='/portfolio/about' component={About}/>
         <Route exact path='/portfolio/projects' component={Projects}/>
         <Route exact path='/portfolio/bio' component={Bio}/>
-        <Contact/>
+        <Button/>
       </div>
     </BrowserRouter>
   );
