@@ -1,15 +1,15 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './Projects.css';
-import Sample from './Sample';
+import Corona from './Corona';
 
-function Projects() {
-    return (
-        <div className="projects">
-            <Sample title="demo1" description="demo1" language="C" link="#" />
-            <Sample title="demo1" description="demo1" link="#" />
-            <Sample title="demo1" description="demo1" language="C" link="#" />
-        </div>
-    );
+class Projects extends Component {
+    render(){
+        return (
+            <div className="projects">
+                <Corona />
+            </div>
+        );
+    }    
 }
 
 export default Projects;
