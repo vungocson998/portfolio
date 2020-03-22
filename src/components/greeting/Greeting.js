@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React from 'react';
+import Clock from './Clock';
 import './Greeting.css';
 
 function Greeting() {
@@ -13,6 +14,7 @@ function Greeting() {
             </h1>
             <p>I AM A SELF-TAUGHT WEB DEVELOPER</p>
             <p>A SYSTEM ADMINISTRATOR, AND A SCIENCE LOVER</p>
+            <Clock />
         </div>
     );
 }

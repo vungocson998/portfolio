@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Link, NavLink} from 'react-router-dom';
+import React from 'react';
+import {Link} from 'react-router-dom';
 import './NavBar.css';
 import SocialWidget from './SocialWidget';
 
@@ -7,7 +7,7 @@ function NavBar() {
     return (
         <div className="nav-bar">
             <div className="header-bar">
-                <div class="site-logo">
+                <div className="site-logo">
                     <Link id="title" to="/portfolio">SON VU</Link>
                 </div>
                 <SocialWidget/>
